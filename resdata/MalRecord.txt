@@ -1,3 +1,0 @@
-app-debug.apk
-app-debug
-silent = 0

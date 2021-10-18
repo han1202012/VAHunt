@@ -189,6 +189,7 @@ def read_apk_list(apkpath, apkfinishfilename):
 
 # 开始进行恶意检测
 def startMalDetect(apkpath, recordfilename, apkfinishfilename):
+    print "开始检测恶意应用"
     # 检测恶意性
     rootPath = os.getcwd()
     # 读取 APK 列表

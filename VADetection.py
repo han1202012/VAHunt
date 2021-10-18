@@ -132,6 +132,7 @@ def extractManifest(recordfile, file_manifesttxt, apkfile, broken_directory, apk
 def extractCode(recordfile, apkfile, broken_directory, dexPath, file_codetxt):
     if not os.path.exists(file_codetxt):
         unzip_file(apkfile, dexPath)
+        print "将 " + apkfile + " 解压到 " + dexPath
         # 处理多dex问题
         classeslist = []
         classeslist = search_file(dexPath, 'classes', classeslist)
@@ -158,6 +159,7 @@ def extractCode(recordfile, apkfile, broken_directory, dexPath, file_codetxt):
             result1 = os.popen(command2)
 
         time.sleep(3)
+        print "验证 " + file_codetxt + " 文件是否存在"
         if os.path.exists(file_codetxt):
             print "提取code文件成功！"
         else:
