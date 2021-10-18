@@ -1,1 +1,6 @@
-app-debug.zip
+app.apk
+myapp_auto.apk
+myapp_button_control.apk
+VirtualApp.apk
+myapp_auto_noclick.apk
+myapp_auto_noclick.zip
