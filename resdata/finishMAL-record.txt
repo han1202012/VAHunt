@@ -1,6 +1,5 @@
-app.apk
-myapp_auto.apk
-myapp_button_control.apk
-VirtualApp.apk
-myapp_auto_noclick.apk
+app.zip
+myapp_auto.zip
 myapp_auto_noclick.zip
+myapp_button_control.zip
+VirtualApp.zip
