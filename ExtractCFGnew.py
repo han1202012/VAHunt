@@ -104,6 +104,7 @@ class ExtractCFGnew:
     # extractPerminCode
     # 对外调用的函数
     def extractCFGinCode(self, file_codetxt, apkcount, apkpath, apk, recordfilename, applicationName, launchActivities):
+        print "extractCFGinCode"
         selfperm = []
         install = 0
         hide = 0
@@ -431,6 +432,7 @@ class ExtractCFGnew:
             if invoked == 1:
                 show = 1
 
+            print "recordfilename : " + recordfilename
             recordfile = open(recordfilename, "a+")
             recordfile.write("silent = " + str(slient) +"\n")
             recordfile.close()
